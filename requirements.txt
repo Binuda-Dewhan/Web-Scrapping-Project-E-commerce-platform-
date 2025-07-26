@@ -1,0 +1,20 @@
+# Core packages
+pandas
+openpyxl
+textblob
+matplotlib
+wordcloud
+python-dotenv
+
+# Web scraping with Selenium
+selenium
+webdriver-manager
+
+# Optional: if you use dotenv to manage environment variables
+python-dotenv
+
+# For compatibility if any JSON handling extensions are used
+simplejson
+
+# If you're using custom utils or local modules, no need to include them here
+# For example: utils.*, browser_manager, scraper.* are assumed to be local files

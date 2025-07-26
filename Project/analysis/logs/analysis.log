@@ -1,0 +1,32 @@
+2025-06-26 15:31:38,282 - INFO - \u2705 Created 'Specifications Comparison' sheet with highlights.
+2025-06-26 15:45:11,497 - INFO - Loaded 19 products from JSON.
+2025-06-26 15:45:11,710 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 15:47:18,134 - INFO - Loaded 19 products from JSON.
+2025-06-26 15:47:18,209 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 15:47:18,510 - INFO - \u2705 Final Excel saved at C:\Users\Binuda Dewhan\Desktop\Project\reports\product_analysis.xlsx
+2025-06-26 15:47:18,729 - INFO - \u2705 Created 'Specifications Comparison' sheet with highlights.
+2025-06-26 15:47:34,851 - INFO - Loaded 19 products from JSON.
+2025-06-26 15:47:35,064 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 15:51:18,809 - INFO - Loaded 19 products from JSON.
+2025-06-26 15:51:19,022 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 15:51:19,392 - INFO - \u2705 Final Excel saved at C:\Users\Binuda Dewhan\Desktop\Project\reports\product_analysis.xlsx
+2025-06-26 15:51:19,633 - INFO - \u2705 Created 'Specifications Comparison' sheet with highlights.
+2025-06-26 15:54:39,802 - INFO - Loaded 19 products from JSON.
+2025-06-26 15:54:40,016 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 15:54:40,412 - INFO - \u2705 Final Excel saved at C:\Users\Binuda Dewhan\Desktop\Project\reports\product_analysis.xlsx
+2025-06-26 15:54:40,668 - INFO - \u2705 Created 'Specifications Comparison' sheet with highlights.
+2025-06-26 15:56:38,442 - INFO - Loaded 19 products from JSON.
+2025-06-26 15:56:38,653 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 15:56:39,022 - INFO - \u2705 Final Excel saved at C:\Users\Binuda Dewhan\Desktop\Project\reports\product_analysis.xlsx
+2025-06-26 15:56:39,262 - INFO - \u2705 Created 'Specifications Comparison' sheet with highlights.
+2025-06-26 16:04:10,092 - INFO - Loaded 19 products from JSON.
+2025-06-26 16:04:10,304 - INFO - \u2705 Product summary DataFrame created.
+2025-06-26 16:04:10,674 - INFO - \u2705 Final Excel saved at C:\Users\Binuda Dewhan\Desktop\Project\reports\product_analysis.xlsx
+2025-06-26 16:04:10,922 - INFO - \u2705 Created 'Specifications Comparison' sheet with highlights.
+2025-06-26 16:04:10,923 - INFO - \U0001f50d Starting review analysis.
+2025-06-26 16:04:15,742 - INFO - \u2705 Review Analysis sheet saved in Excel.
+2025-06-26 16:04:18,507 - INFO - \u2705 Saved word cloud: reports/all_wordcloud.png
+2025-06-26 16:04:20,961 - INFO - \u2705 Saved word cloud: reports/positive_wordcloud.png
+2025-06-26 16:04:22,639 - INFO - \u2705 Saved word cloud: reports/negative_wordcloud.png
+2025-06-26 16:04:23,202 - INFO - \u2705 Sentiment distribution chart saved.
+2025-06-26 16:04:23,277 - INFO - \u2705 Review sentiment data saved to CSV.

@@ -1,0 +1,448 @@
+2025-06-26 14:29:34,628 - INFO - ====== WebDriver manager ======
+2025-06-26 14:29:36,224 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-26 14:29:36,593 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-26 14:29:36,870 - INFO - Driver [C:\Users\Binuda Dewhan\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-26 14:29:38,089 - INFO - Chrome WebDriver launched with webdriver-manager.
+2025-06-26 14:29:38,089 - INFO - \U0001f680 Starting product card scraping...
+2025-06-26 14:29:38,090 - INFO - Opening BestBuy homepage...
+2025-06-26 14:29:38,929 - INFO - Applying random delay: 1.50 seconds
+2025-06-26 14:30:05,586 - INFO - Selected 'United States' on splash screen.
+2025-06-26 14:30:05,586 - INFO - Applying random delay: 1.04 seconds
+2025-06-26 14:30:14,296 - INFO - Applying random delay: 0.64 seconds
+2025-06-26 14:30:14,942 - INFO - Navigated to filtered laptops category.
+2025-06-26 14:30:14,942 - INFO - Applying random delay: 0.58 seconds
+2025-06-26 14:31:18,138 - INFO - Found 18 product cards.
+2025-06-26 14:31:18,139 - INFO - Scraping product card 1...
+2025-06-26 14:31:18,358 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_15-fd0127dx.json
+2025-06-26 14:31:18,358 - INFO - Scraping product card 2...
+2025-06-26 14:31:18,522 - INFO - \U0001f4dd Saved product JSON: data/raw\Lenovo_82VG00TYUS.json
+2025-06-26 14:31:18,523 - INFO - Scraping product card 3...
+2025-06-26 14:31:18,691 - INFO - \U0001f4dd Saved product JSON: data/raw\Dell_i3530-7728BLK-PUS.json
+2025-06-26 14:31:18,691 - INFO - Scraping product card 4...
+2025-06-26 14:31:18,861 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_14-fk0013dx.json
+2025-06-26 14:31:18,861 - INFO - Scraping product card 5...
+2025-06-26 14:31:19,028 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_16-as0023dx.json
+2025-06-26 14:31:19,028 - INFO - Scraping product card 6...
+2025-06-26 14:31:19,205 - INFO - \U0001f4dd Saved product JSON: data/raw\Dell_LDB16255-A873BLU-PUS.json
+2025-06-26 14:31:19,206 - INFO - Scraping product card 7...
+2025-06-26 14:31:19,374 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_15-fa2013dx.json
+2025-06-26 14:31:19,374 - INFO - Scraping product card 8...
+2025-06-26 14:31:19,557 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_14-fm0023dx.json
+2025-06-26 14:31:19,557 - INFO - Scraping product card 9...
+2025-06-26 14:31:19,736 - INFO - \U0001f4dd Saved product JSON: data/raw\Dell_i3535-A735BLK-PUS.json
+2025-06-26 14:31:19,736 - INFO - Scraping product card 10...
+2025-06-26 14:31:19,907 - INFO - \U0001f4dd Saved product JSON: data/raw\Dell_i5441-SX8661GRY-PUS.json
+2025-06-26 14:31:19,908 - INFO - Scraping product card 11...
+2025-06-26 14:31:20,093 - INFO - \U0001f4dd Saved product JSON: data/raw\Lenovo_83B40001US.json
+2025-06-26 14:31:20,093 - INFO - Scraping product card 12...
+2025-06-26 14:31:20,285 - INFO - \U0001f4dd Saved product JSON: data/raw\Lenovo_83JR0002US.json
+2025-06-26 14:31:20,286 - INFO - Scraping product card 13...
+2025-06-26 14:31:20,453 - INFO - \U0001f4dd Saved product JSON: data/raw\Lenovo_82XM00LMUS.json
+2025-06-26 14:31:20,454 - INFO - Scraping product card 14...
+2025-06-26 14:31:20,629 - INFO - \U0001f4dd Saved product JSON: data/raw\Lenovo_83DL0002US.json
+2025-06-26 14:31:20,629 - INFO - Scraping product card 15...
+2025-06-26 14:31:20,798 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_14-es1013dx-9R8R2UA#ABA.json
+2025-06-26 14:31:20,798 - INFO - Scraping product card 16...
+2025-06-26 14:31:20,971 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_16-as0013dx.json
+2025-06-26 14:31:20,971 - INFO - Scraping product card 17...
+2025-06-26 14:31:21,149 - INFO - \U0001f4dd Saved product JSON: data/raw\Dell_i7640-7366BLU-PUS.json
+2025-06-26 14:31:21,150 - INFO - Scraping product card 18...
+2025-06-26 14:31:21,329 - INFO - \U0001f4dd Saved product JSON: data/raw\HP_17-da0013dx-9S1R7UA#ABA.json
+2025-06-26 14:31:21,330 - INFO - \u2705 Finished scraping. Total products extracted: 18
+2025-06-26 14:31:21,330 - INFO - \u2705 18 products saved to JSON files.
+2025-06-26 14:31:21,330 - INFO - \U0001f50d Starting product detail scraping...
+2025-06-26 14:31:31,997 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:31:42,392 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:31:56,166 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:32:00,853 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:04,378 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:07,917 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:10,806 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:32:10,809 - INFO - \u2705 Updated ./data/raw/Dell_i3530-7728BLK-PUS.json with full specs & reviews.
+2025-06-26 14:32:17,836 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:32:26,896 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:32:36,316 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:32:41,018 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:44,570 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:48,112 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:51,813 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:55,448 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:32:59,078 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:33:02,669 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:33:06,073 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:33:06,078 - INFO - \u2705 Updated ./data/raw/Dell_i3535-A735BLK-PUS.json with full specs & reviews.
+2025-06-26 14:33:13,218 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:33:22,751 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:33:36,217 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:33:40,051 - WARNING - \u26a0\ufe0f Error finding or clicking next review page: Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.inline.page.next"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x993b03+62899]
+	GetHandleVerifier [0x0x993b44+62964]
+	(No symbol) [0x0x7c10f3]
+	(No symbol) [0x0x80980e]
+	(No symbol) [0x0x809bab]
+	(No symbol) [0x0x8525c2]
+	(No symbol) [0x0x82e554]
+	(No symbol) [0x0x84fd81]
+	(No symbol) [0x0x82e306]
+	(No symbol) [0x0x7fd670]
+	(No symbol) [0x0x7fe4e4]
+	GetHandleVerifier [0x0xbf4793+2556483]
+	GetHandleVerifier [0x0xbefd02+2537394]
+	GetHandleVerifier [0x0x9ba2fa+220586]
+	GetHandleVerifier [0x0x9aaae8+157080]
+	GetHandleVerifier [0x0x9b141d+184013]
+	GetHandleVerifier [0x0x99ba68+95512]
+	GetHandleVerifier [0x0x99bc10+95936]
+	GetHandleVerifier [0x0x986b5a+9738]
+	BaseThreadInitThunk [0x0x75dd5d49+25]
+	RtlInitializeExceptionChain [0x0x7750d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7750d021+561]
+
+2025-06-26 14:33:40,053 - INFO - \u2705 Updated ./data/raw/Dell_i5441-SX8661GRY-PUS.json with full specs & reviews.
+2025-06-26 14:33:46,462 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:33:54,194 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:34:11,838 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:34:16,420 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:20,010 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:23,740 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:28,734 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:32,344 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:35,960 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:39,589 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:43,172 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:46,757 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:50,330 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:53,939 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:34:57,604 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:01,284 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:04,873 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:08,457 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:12,204 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:15,793 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:19,373 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:23,060 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:26,638 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:30,208 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:33,861 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:37,474 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:41,118 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:44,753 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:48,336 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:51,996 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:55,664 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:35:59,350 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:02,917 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:06,520 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:10,119 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:13,717 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:17,488 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:21,104 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:24,822 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:28,473 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:32,038 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:35,635 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:39,236 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:42,831 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:36:45,637 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:36:45,653 - INFO - \u2705 Updated ./data/raw/Dell_i7640-7366BLU-PUS.json with full specs & reviews.
+2025-06-26 14:36:54,355 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:37:03,292 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:37:15,031 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:37:18,296 - WARNING - \u26a0\ufe0f Error finding or clicking next review page: Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.inline.page.next"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x993b03+62899]
+	GetHandleVerifier [0x0x993b44+62964]
+	(No symbol) [0x0x7c10f3]
+	(No symbol) [0x0x80980e]
+	(No symbol) [0x0x809bab]
+	(No symbol) [0x0x8525c2]
+	(No symbol) [0x0x82e554]
+	(No symbol) [0x0x84fd81]
+	(No symbol) [0x0x82e306]
+	(No symbol) [0x0x7fd670]
+	(No symbol) [0x0x7fe4e4]
+	GetHandleVerifier [0x0xbf4793+2556483]
+	GetHandleVerifier [0x0xbefd02+2537394]
+	GetHandleVerifier [0x0x9ba2fa+220586]
+	GetHandleVerifier [0x0x9aaae8+157080]
+	GetHandleVerifier [0x0x9b141d+184013]
+	GetHandleVerifier [0x0x99ba68+95512]
+	GetHandleVerifier [0x0x99bc10+95936]
+	GetHandleVerifier [0x0x986b5a+9738]
+	BaseThreadInitThunk [0x0x75dd5d49+25]
+	RtlInitializeExceptionChain [0x0x7750d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7750d021+561]
+
+2025-06-26 14:37:18,298 - INFO - \u2705 Updated ./data/raw/Dell_LDB16255-A873BLU-PUS.json with full specs & reviews.
+2025-06-26 14:37:24,802 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:37:32,683 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:37:45,169 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:37:49,839 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:37:53,384 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:37:56,925 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:00,691 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:04,310 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:07,880 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:11,449 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:15,025 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:18,643 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:22,300 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:25,865 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:29,493 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:33,281 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:36,980 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:40,578 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:44,129 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:47,698 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:51,256 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:54,824 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:38:58,463 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:02,138 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:05,734 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:09,337 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:12,976 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:16,537 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:19,210 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:39:19,220 - INFO - \u2705 Updated ./data/raw/HP_14-es1013dx-9R8R2UA#ABA.json with full specs & reviews.
+2025-06-26 14:39:26,680 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:39:33,881 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:39:43,971 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:39:48,629 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:39:51,599 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:39:51,602 - INFO - \u2705 Updated ./data/raw/HP_14-fk0013dx.json with full specs & reviews.
+2025-06-26 14:39:58,565 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:40:06,277 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:40:18,346 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:40:22,946 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:40:26,586 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:40:30,137 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:40:34,144 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:40:37,084 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:40:37,087 - INFO - \u2705 Updated ./data/raw/HP_14-fm0023dx.json with full specs & reviews.
+2025-06-26 14:40:47,812 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:41:00,300 - ERROR - Timeout: Element ('css selector', 'div.dB7j8sHUbncyf79K') not found within 10 seconds.
+2025-06-26 14:41:00,340 - INFO - \u2139\ufe0f No spec sheet to close, or already closed.
+2025-06-26 14:41:08,352 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:41:13,039 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:41:16,549 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:41:16,551 - INFO - \u2705 Updated ./data/raw/HP_15-fa2013dx.json with full specs & reviews.
+2025-06-26 14:41:23,099 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:41:32,201 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:41:45,799 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:41:50,466 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:41:54,005 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:41:57,620 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:01,320 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:05,004 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:08,569 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:12,164 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:15,728 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:19,300 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:22,872 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:26,430 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:30,031 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:33,666 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:37,235 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:40,814 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:44,366 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:47,984 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:51,562 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:55,162 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:42:58,961 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:43:02,139 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:43:02,149 - INFO - \u2705 Updated ./data/raw/HP_15-fd0127dx.json with full specs & reviews.
+2025-06-26 14:43:09,432 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:43:17,077 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:43:28,695 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:43:33,280 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:43:35,491 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:43:35,493 - INFO - \u2705 Updated ./data/raw/HP_16-as0013dx.json with full specs & reviews.
+2025-06-26 14:43:44,499 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:43:51,681 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:44:08,558 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:44:13,144 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:44:16,682 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:44:20,596 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:44:24,161 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:44:26,460 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:44:26,464 - INFO - \u2705 Updated ./data/raw/HP_16-as0023dx.json with full specs & reviews.
+2025-06-26 14:44:35,183 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:44:42,643 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:44:59,916 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:45:04,534 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:08,156 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:11,687 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:15,646 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:19,206 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:22,760 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:26,354 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:29,952 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:33,573 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:37,142 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:40,738 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:44,255 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:47,860 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:51,399 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:54,925 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:45:58,491 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:02,075 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:05,634 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:09,157 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:12,793 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:16,336 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:20,022 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:23,586 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:27,124 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:30,656 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:34,205 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:37,737 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:41,280 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:44,936 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:48,532 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:52,088 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:46:55,406 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:46:55,419 - INFO - \u2705 Updated ./data/raw/HP_17-da0013dx-9S1R7UA#ABA.json with full specs & reviews.
+2025-06-26 14:47:02,743 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:47:11,526 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:47:20,657 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:47:25,304 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:28,820 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:33,540 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:37,644 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:41,323 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:44,884 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:48,584 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:52,234 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:55,803 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:47:59,392 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:02,506 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:48:02,514 - INFO - \u2705 Updated ./data/raw/Lenovo_82VG00TYUS.json with full specs & reviews.
+2025-06-26 14:48:09,795 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:48:18,315 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:48:30,375 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:48:34,979 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:38,544 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:42,157 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:46,244 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:49,808 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:53,381 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:48:56,939 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:00,581 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:04,191 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:07,773 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:11,348 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:14,913 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:18,495 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:22,077 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:25,740 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:29,350 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:32,963 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:36,597 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:40,188 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:43,763 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:47,360 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:49:50,337 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:49:50,349 - INFO - \u2705 Updated ./data/raw/Lenovo_82XM00LMUS.json with full specs & reviews.
+2025-06-26 14:49:59,183 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:50:07,519 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:50:19,497 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:50:24,176 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:50:27,736 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:50:30,249 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:50:30,251 - INFO - \u2705 Updated ./data/raw/Lenovo_83B40001US.json with full specs & reviews.
+2025-06-26 14:50:37,492 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:50:45,911 - INFO - \u2705 Closed specification sheet.
+2025-06-26 14:51:00,030 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:51:04,686 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:08,344 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:12,354 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:15,993 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:19,600 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:23,202 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:26,821 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:30,447 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:34,053 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:37,809 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:41,573 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:45,143 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:48,852 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:52,454 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:56,108 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:51:59,700 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:03,377 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:07,036 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:10,680 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:14,267 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:17,823 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:21,416 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:25,023 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:28,631 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:32,225 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:35,804 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:39,407 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:43,036 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:46,691 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:50,292 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:54,081 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:52:57,730 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:01,418 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:05,032 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:08,636 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:12,219 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:15,803 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:19,388 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:23,005 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:26,613 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:30,179 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:33,852 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:37,433 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:41,034 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:44,619 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:48,202 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:51,837 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:55,509 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:53:59,083 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:02,679 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:06,270 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:09,866 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:13,620 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:17,296 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:20,885 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:24,500 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:28,096 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:31,709 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:35,330 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:38,960 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:42,567 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:46,266 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:50,040 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:53,651 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:54:57,296 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:00,984 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:04,578 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:08,164 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:11,746 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:15,328 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:18,912 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:22,482 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:26,080 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:29,642 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:33,213 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:36,821 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:40,396 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:44,028 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:47,594 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:55:50,475 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:55:50,504 - INFO - \u2705 Updated ./data/raw/Lenovo_83DL0002US.json with full specs & reviews.
+2025-06-26 14:55:57,612 - INFO - Clicked 'Specifications' to reveal spec details.
+2025-06-26 14:56:09,870 - ERROR - Timeout: Element ('css selector', 'div.dB7j8sHUbncyf79K') not found within 10 seconds.
+2025-06-26 14:56:09,905 - INFO - \u2139\ufe0f No spec sheet to close, or already closed.
+2025-06-26 14:56:23,274 - INFO - \u2705 Clicked 'See All Customer Reviews' button.
+2025-06-26 14:56:27,943 - INFO - \u27a1\ufe0f Clicked next review page.
+2025-06-26 14:56:30,102 - INFO - \u274c No more review pages (Next is disabled).
+2025-06-26 14:56:30,104 - INFO - \u2705 Updated ./data/raw/Lenovo_83JR0002US.json with full specs & reviews.
+2025-06-26 14:56:30,117 - WARNING - No URL found in ./data/raw/N-A.json. Skipping.
+2025-06-26 14:56:33,446 - INFO - WebDriver session closed.
