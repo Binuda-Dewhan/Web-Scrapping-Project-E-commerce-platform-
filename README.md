@@ -1,16 +1,81 @@
-Step 1: .env Configuration
-- Create a .env file to store environment-specific configurations (e.g., timeouts, user-agent, paths).
-- This allows for centralized configuration and easier tuning without editing source code.
+# 🛍️ E-Commerce Analytics Automation Project
 
-Example .env:
+## 📊 Overview
+
+This project automates the scraping and analysis of laptop product data and customer reviews from a major e-commerce platform (e.g., BestBuy.com). It includes:
+- Data scraping with Selenium
+- Sentiment analysis with TextBlob
+- Excel report generation with openpyxl
+- Modular utility scripts
+- Structured logs and reusable pipelines
+
+---
+
+## 🚀 Features
+
+- ✅ Filter laptops by price ($500–$1500), brand (HP, Dell, Lenovo), and rating (4★+)
+- ✅ Collect and store product listings and full product details in JSON
+- ✅ Extract customer reviews across paginated pages
+- ✅ Perform sentiment analysis on reviews (Positive, Neutral, Negative)
+- ✅ Generate Excel reports with:
+  - Conditional formatting
+  - Pivot tables and filters
+  - Comparison matrix of specs
+  - Word clouds and sentiment visualizations
+- ✅ Logging and modular architecture
+- ✅ Configuration using `.env` and `config.py`
+
+---
+
+## 📦 Folder Structure
+
+```
+ecommerce-analytics/
+├── .env                      # Environment config
+├── config.py                 # Loads values from .env
+├── main.py                   # Controls scraping flow
+├── analysis/
+│   └── data_processor.py     # Cleans + analyzes data, generates Excel & visuals
+├── data/
+│   └── raw/                  # Contains raw JSON files per product
+├── logs/
+│   └── analysis.log          # All logs stored here
+├── reports/
+│   ├── product_analysis.xlsx # Final Excel output
+│   ├── all_wordcloud.png
+│   ├── positive_wordcloud.png
+│   ├── negative_wordcloud.png
+│   └── sentiment_distribution.png
+├── scraper/
+│   ├── category_scraper.py   # Extracts laptops from main category
+│   └── product_scraper.py    # Extracts full details + reviews per product
+├── utils/
+│   ├── delay_utils.py
+│   ├── json_utils.py
+│   ├── wait_utils.py
+│   └── browser_manager.py
+├── requirements.txt          # Python dependencies
+└── README.md                 # (This file)
+```
+
+---
+
+## 🛠️ Step-by-Step Breakdown
+
+### ✅ Step 1: `.env` Configuration
+- Centralized configuration using `.env` for timeout, user-agent, etc.
+
+**Example `.env`:**
+```ini
 PAGE_LOAD_TIMEOUT=15
 USER_AGENT=Mozilla/5.0 (...)
+```
 
-Step 2: config.py
-- Read values from the .env file using dotenv.
-- Define constants like page load timeout and user agent string.
+## ✅ Step 2: `config.py`
 
-Example:
+Reads values from `.env` using `python-dotenv`.
+
+```python
 from dotenv import load_dotenv
 import os
 
@@ -18,105 +83,141 @@ load_dotenv()
 
 PAGE_LOAD_TIMEOUT = int(os.getenv("PAGE_LOAD_TIMEOUT", 15))
 USER_AGENT = os.getenv("USER_AGENT", "default-user-agent")
+```
 
-Step 3: category_scraper.py – Scraping Laptop Listings
-- Navigates to the BestBuy Laptops category page.
-- Filters are already applied via URL:
-  - Price: $500–$1500
-  - Brands: HP, Dell, Lenovo
-  - Customer Rating: 4 stars & up
-- Extracts:
-  - Product Name
-  - Price
-  - Rating
-  - Review Count
-  - Short Specifications
-  - Product URL
-- Uses utility functions for delays, waits, and saving JSON.
-- Supports lazy-loading product cards by scrolling the page.
+---
 
-Step 4: product_scraper.py – Advanced Scraping per Product
-- Loads individual JSON files from the previous step.
-- Opens each product URL to extract:
-  - Full technical specifications (as a dictionary)
-  - All customer reviews (supports pagination)
-- Appends this data to the corresponding JSON file using update_product_json.
+## ✅ Step 3: `category_scraper.py`
 
-Step 5: main.py
-- Central coordinator for scraping.
-- Calls:
-  - LaptopCategoryScraper to extract listings
-  - ProductDetailScraper to extract full specs + reviews
-- Controls flow and logging.
+Scrapes laptops with applied filters via URL.
 
-Step 6: data_processor.py – Data Cleaning & Analysis
-Processes all collected JSON files to generate reports.
+- Extracts product name, price, rating, review count, short specs, and product URL  
+- Uses scrolling and utility delays
 
- Creates product_analysis.xlsx with the following sheets:
+---
 
- Sheet 1: Product Summary
-- Basic data: name, price, rating, brand, specs
-- Conditional formatting on price (color-coded)
-- Dropdown filtering by brand
-- Excel table for clean visualization
+## ✅ Step 4: `product_scraper.py`
 
- Sheet 2: Specifications Comparison
-- Matrix of technical specs (RAM, storage, CPU, screen, battery, etc.)
-- Highlights best-in-class features:
-  - Max RAM (green)
-  - Max Battery (green)
-  - Min Weight (blue)
-- Excel Table for sortable comparisons
+Reads scraped product URLs and visits each product page to collect:
 
- Sheet 3: Review Analysis
-- Performs sentiment analysis using TextBlob
-- Labels reviews as Positive, Neutral, or Negative
-- Saves results into Excel
-- Also generates:
-  - Word Clouds (for All / Positive / Negative reviews)
-  - Sentiment score distribution chart
-  - CSV of labeled reviews for future analysis
+- Full technical specs  
+- Paginated customer reviews  
+- Updates JSON with detailed info
 
-Utility Files
-These are helper modules used throughout the scraping and analysis process:
-- wait_utils.py – Explicit wait handling using WebDriverWait
-- delay_utils.py – Applies random delays (to prevent blocking)
-- json_utils.py – Save/load/update product JSON files
-- browser_manager.py – Manages Selenium Chrome browser setup
+---
 
-Logs
-- Logging is implemented throughout for debugging and traceability.
-- All logs are saved to logs/analysis.log.
+## ✅ Step 5: `main.py`
 
-📦 Folder Structure
-ecommerce-analytics/
-├── .env                         # Environment config
-├── config.py                    # Loads values from .env
-├── main.py                      # Controls scraping flow
-├── analysis/
-│   └── data_processor.py        # Cleans + analyzes data, generates Excel & visuals
-├── data/
-│   └── raw/                     # Contains raw JSON files per product
-├── logs/
-│   └── analysis.log             # All logs stored here
-├── reports/
-│   ├── product_analysis.xlsx    # Final Excel output
-│   ├── all_wordcloud.png
-│   ├── positive_wordcloud.png
-│   ├── negative_wordcloud.png
-│   └── sentiment_distribution.png
-├── scraper/
-│   ├── category_scraper.py      # Extracts laptops from main category
-│   └── product_scraper.py       # Extracts full details + reviews per product
-├── utils/
-│   ├── delay_utils.py
-│   ├── json_utils.py
-│   ├── wait_utils.py
-│   └── browser_manager.py
-├── requirements.txt             # Python dependencies
-└── README.txt                   # (This file)
+Acts as the orchestrator:
 
-📝 Notes
-- This project is modular, so you can reuse the scraper for other product categories.
-- You can expand data_processor.py to include more advanced NLP, trends, or pricing alerts.
-- All Excel formatting is handled using openpyxl.
+- Calls both scrapers  
+- Manages logging and flow
+
+## ✅ Step 6: `data_processor.py`
+
+Processes raw JSON files to generate an Excel workbook:
+
+### 📘 Sheet 1: Product Summary
+- Basic product info  
+- Conditional formatting on price  
+- Dropdown filters by brand  
+- Excel table layout
+
+### 📘 Sheet 2: Specification Comparison
+- Matrix format for specs  
+- Highlights:
+  - Max RAM, battery → 🟩 Green  
+  - Min weight → 🟦 Blue
+
+### 📘 Sheet 3: Review Analysis
+- Sentiment analysis (using `TextBlob`)  
+- Sentiment-labeled reviews  
+- Generates:
+  - Word clouds (All / Positive / Negative)  
+  - Sentiment distribution chart  
+  - CSV of labeled reviews
+
+---
+
+## 🔧 Utility Modules
+
+| File               | Purpose                           |
+|--------------------|-----------------------------------|
+| `wait_utils.py`    | Explicit wait handling            |
+| `delay_utils.py`   | Adds random delay between actions |
+| `json_utils.py`    | Save/load/update JSON             |
+| `browser_manager.py` | Chrome browser setup            |
+
+---
+
+## 🪵 Logging
+
+- All operations are logged to `logs/analysis.log`  
+- Helpful for debugging and status monitoring
+
+---
+
+## 🧪 Testing
+
+Basic unit tests are included in the `tests/` directory.
+
+To run them:
+
+```bash
+pytest tests/
+```
+
+---
+
+## 📋 Requirements
+
+Install all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+**Main packages used:**
+- `selenium`  
+- `pandas`  
+- `openpyxl`  
+- `nltk`  
+- `matplotlib`, `seaborn`  
+- `python-dotenv`
+
+---
+
+## 📌 Notes
+
+- The scraper and analyzer are modular – easily extendable to other categories.  
+- You can plug in more advanced NLP or price alerting if needed.
+
+---
+
+## 🙋 Author
+
+**Binuda Dewhan Bandara**  
+Feel free to connect or raise issues in this repo!
+
+---
+
+## 📜 License
+
+This project is for academic and demo purposes only.
+
+---
+
+### ✅ To update your current `README.md` file:
+
+1. Open the file in any code editor (VS Code, Notepad++, etc.)
+2. Replace all existing content with the markdown above
+3. Save the file
+4. Commit and push:
+
+```bash
+git add README.md
+git commit -m "Update README with full project description"
+git push
+```
+
+
